@@ -17,4 +17,4 @@
 - Nhấn F5 (hoặc nút Start) để build và chạy ứng dụng.
 - Hình ảnh minh họa
 - 1. Hiển thị thông tin thành công
-![Thong tin ca nha]("C:\Users\99966\OneDrive\Pictures\Screenshots 1\Screenshot 2026-09-14 230636.png")
+
