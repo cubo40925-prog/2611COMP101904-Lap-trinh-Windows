@@ -1,0 +1,10 @@
+C:\Users\99966\source\repos\ltwindow\lab01\bin\Debug\ltwindow.exe.config
+C:\Users\99966\source\repos\ltwindow\lab01\bin\Debug\ltwindow.exe
+C:\Users\99966\source\repos\ltwindow\lab01\bin\Debug\ltwindow.pdb
+C:\Users\99966\source\repos\ltwindow\lab01\obj\Debug\lab01.csproj.AssemblyReference.cache
+C:\Users\99966\source\repos\ltwindow\lab01\obj\Debug\ltwindow.Form1.resources
+C:\Users\99966\source\repos\ltwindow\lab01\obj\Debug\ltwindow.Properties.Resources.resources
+C:\Users\99966\source\repos\ltwindow\lab01\obj\Debug\lab01.csproj.GenerateResource.cache
+C:\Users\99966\source\repos\ltwindow\lab01\obj\Debug\lab01.csproj.CoreCompileInputs.cache
+C:\Users\99966\source\repos\ltwindow\lab01\obj\Debug\ltwindow.exe
+C:\Users\99966\source\repos\ltwindow\lab01\obj\Debug\ltwindow.pdb
