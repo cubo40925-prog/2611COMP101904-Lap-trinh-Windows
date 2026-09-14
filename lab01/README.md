@@ -17,4 +17,4 @@
 - Nhấn F5 (hoặc nút Start) để build và chạy ứng dụng.
 - Hình ảnh minh họa
 - 1. Hiển thị thông tin thành công
-![KQ](lab01/sceenshots/Screenshot 2026-09-14 184009.png)
+![KQ](<img width="1447" height="875" alt="KQ" src="https://github.com/user-attachments/assets/05c9a911-0861-49c0-a157-e05fd79e734a" />)
