@@ -1,0 +1,15 @@
+C:\Users\99966\source\repos\lab2\bin\Debug\net10.0\lab2.exe
+C:\Users\99966\source\repos\lab2\bin\Debug\net10.0\lab2.deps.json
+C:\Users\99966\source\repos\lab2\bin\Debug\net10.0\lab2.runtimeconfig.json
+C:\Users\99966\source\repos\lab2\bin\Debug\net10.0\lab2.dll
+C:\Users\99966\source\repos\lab2\bin\Debug\net10.0\lab2.pdb
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.AssemblyInfoInputs.cache
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.AssemblyInfo.cs
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.dll
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\refint\lab2.dll
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.pdb
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.genruntimeconfig.cache
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\ref\lab2.dll
+C:\Users\99966\source\repos\lab2\obj\Debug\net10.0\lab2.csproj.Up2Date
