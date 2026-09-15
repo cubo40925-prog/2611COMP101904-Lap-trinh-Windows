@@ -25,7 +25,7 @@
 ![KQ](./sceenshots/KQ.png)
 
 ### 2) Xác nhận đóng/thoát chương trình
-![EXIT](./screenshots/EXIT.png)
+![EXIT](./sceenshots/EXIT.png)
 
 ### 3) Lỗi nhập tên
 ![NAME](./screenshots/NAME.png)
