@@ -1,4 +1,4 @@
- Lab01 - Build chương trình nhập thông tin cá nhân
+### Lab01 - Build chương trình nhập thông tin cá nhân
 
 ## Thông tin sinh viên
 * **Họ tên:** Lê Quốc Tuấn
@@ -25,13 +25,19 @@
 ![KQ](./sceenshots/KQ.png)
 
 ### 2) Xác nhận đóng/thoát chương trình
+![EXIT](./screenshots/EXIT.png)
 
 ### 3) Lỗi nhập tên
+![NAME](./screenshots/NAME.png)
 
 ### 4) Lỗi nhập năm sinh
+![DATE](./screenshots/DATE.png)
 
 ### 5) Lỗi nhập email
+![EMAIL](./screenshots/EMAIL.png)
 
 ### 6) Lỗi nhập giới tính
+![SEX](./screenshots/SEX.png)
 
 ### 7) Lỗi nhập khoa/lớp
+![CLASS](./screenshots/CLASS.png)
