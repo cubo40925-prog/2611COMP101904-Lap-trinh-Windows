@@ -17,4 +17,4 @@
 - Nhấn F5 (hoặc nút Start) để build và chạy ứng dụng.
 - Hình ảnh minh họa
 - 1. Hiển thị thông tin thành công
-![KQ](lab01/sceenshots/KQ.png)
+![KQ](./sceenshots/KQ.png)
