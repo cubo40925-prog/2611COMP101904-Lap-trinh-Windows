@@ -48,10 +48,10 @@ Testcase 1: n = 4, 7 4 8 2, 2
 Testcase 2: n = 6, -9 -11 -5 10 19 1, 11
 ![TIM_KIEM]
 ### 6) Kiểm tra lỗi nhập dữ liệu (Validation)
-* **Lỗi chọn chức năng xuất trước khi nhập mảng khi lần đầu chạy chương trình**
+- **Lỗi chọn chức năng xuất trước khi nhập mảng khi lần đầu chạy chương trình**
 ![ERROR1](./images/ERROR1.png)
-* **Lỗi nhập mảng âm**
+- **Lỗi nhập mảng âm**
 ![ERROR2](./images/ERROR2.png)
-* **Lỗi nhập ký tự hay vì số để chọn chức năng**
+- **Lỗi nhập ký tự hay vì số để chọn chức năng**
 ![ERROR3](./images/ERROR3.png)
 
