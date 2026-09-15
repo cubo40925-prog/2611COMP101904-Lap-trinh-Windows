@@ -28,16 +28,31 @@
 ![MENU]
 
 ### 2) Nhập và xuất mảng
+Testcase 1: n = 4, 7 4 8 2
 ![NHAP_XUAT]
-
+Testcase 2: n = 6, -9 -11 -5 10 19 1
+![NHAP_XUAT]
 ### 3) Tính tổng, tìm Max/Min, đếm chẵn/lẻ
+Testcase 1: n = 4, 7 4 8 2
 ![TINH_TOAN]
-
+Testcase 2: n = 6, -9 -11 -5 10 19 1
+![TINH_TOAN]
 ### 4) Sắp xếp tăng dần
+Testcase 1: n = 4, 7 4 8 2
 ![SAP_XEP]
-
+Testcase 2: n = 6, -9 -11 -5 10 19 1
+![TINH_TOAN]
 ### 5) Tìm kiếm phần tử
+Testcase 1: n = 4, 7 4 8 2, 2
 ![TIM_KIEM]
-
+Testcase 2: n = 6, -9 -11 -5 10 19 1, 11
+![TIM_KIEM]
 ### 6) Kiểm tra lỗi nhập dữ liệu (Validation)
-![LOI_NHAP](./images/LOI_NHAP.png)
+6.1) Lỗi nhập xuất
+* **Lỗi chọn chức năng xuất trước khi nhập mảng**
+
+* **Lỗi nhập mảng âm**
+
+* **Lỗi nhập ký tự hay vì số để chọn chức năng**
+
+
