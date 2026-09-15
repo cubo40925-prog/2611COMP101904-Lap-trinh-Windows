@@ -28,16 +28,16 @@
 ![EXIT](./sceenshots/EXIT.png)
 
 ### 3) Lỗi nhập tên
-![NAME](./screenshots/NAME.png)
+![NAME](./sceenshots/NAME.png)
 
 ### 4) Lỗi nhập năm sinh
-![DATE](./screenshots/DATE.png)
+![DATE](./sceenshots/DATE.png)
 
 ### 5) Lỗi nhập email
-![EMAIL](./screenshots/EMAIL.png)
+![EMAIL](./sceenshots/EMAIL.png)
 
 ### 6) Lỗi nhập giới tính
-![SEX](./screenshots/SEX.png)
+![SEX](./sceenshots/SEX.png)
 
 ### 7) Lỗi nhập khoa/lớp
-![CLASS](./screenshots/CLASS.png)
+![CLASS](./sceenshots/CLASS.png)
