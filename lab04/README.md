@@ -61,6 +61,7 @@ Nhập mã sản phẩm cần xóa, hệ thống xác thực sự tồn tại c�
 
 ### 2.8. Thống kê tổng giá trị kho
 Tính tổng giá trị kho (`Price * Quantity`)
+
 ![Tính tổng kho và Xóa sản phẩm](./images/TongSP.png)
 
 ### 2.9. Bẫy ngoại lệ và xử lý lỗi hệ thống (Exception Handling)
