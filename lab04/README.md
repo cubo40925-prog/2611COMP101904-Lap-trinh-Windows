@@ -46,15 +46,18 @@ Tra cứu thực thể trong Generic Repository theo mã hoặc sử dụng bi�
 
 ### 2.5. Xử lý ngoại lệ và hiển thị thông báo lỗi (Error Handling)
 Hệ thống bắt các ngoại lệ dị thường (`ProductNotFoundException`, `ArgumentException`, `FormatException`), hiển thị thông báo lỗi chi tiết trên Console và giữ cho chương trình hoạt động ổn định:
-![Xử lý lỗi](./images/09_xu_ly_loi.png)
+
+![Xử lý lỗi](./images/LoiTimMaSP.png)
+
+![Xử lý lỗi](./images/LoiTimTenSP.png)
 
 ### 2.6. Lọc dữ liệu linh hoạt qua Func<Product, bool>
 Trích xuất danh sách các sản phẩm thỏa mãn khoảng giá `[Min - Max]` bằng việc truyền `Func` vào Repository:
-![Lọc theo khoảng giá](./images/05_loc_khoang_gia.png)
+![Lọc theo khoảng giá](./images/LocSP.png)
 
 ### 2.7. Xóa sản phẩm thành công khi tìm thấy mã (Chức năng 6)
 Nhập mã sản phẩm cần xóa, hệ thống xác thực sự tồn tại của thực thể trong Generic Repository, thực hiện xóa khỏi bộ nhớ và kích hoạt `ProductRemoved` Event phát thông báo xác nhận:
-![Xóa sản phẩm thành công](./images/11_xoa_san_pham_thanh_cong.png)
+![Xóa sản phẩm thành công](./images/XoaSP.png)
 
 ### 2.8. Thống kê tổng giá trị kho & Xóa sản phẩm
 Tính tổng giá trị kho (`Price * Quantity`) và bẫy lỗi `ProductNotFoundException` khi thực hiện xóa một mã không tồn tại:
@@ -62,4 +65,4 @@ Tính tổng giá trị kho (`Price * Quantity`) và bẫy lỗi `ProductNotFoun
 
 ### 2.9. Bẫy ngoại lệ và xử lý lỗi hệ thống (Exception Handling)
 Chương trình bao bọc toàn bộ luồng I/O bằng cấu trúc `try-catch`, bắt chính xác các lớp ngoại lệ (`ProductNotFoundException`, `ArgumentException`, `FormatException`), hiển thị thông báo trực quan và giữ chương trình luôn hoạt động ổn định:
-![Xử lý ngoại lệ](./images/10_xu_ly_loi_he_thong.png)
+![Xử lý ngoại lệ](./images/LoiHTSP.png)
