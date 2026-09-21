@@ -6,7 +6,7 @@
 * **Sinh viên thực hiện:** Lê Quốc Tuấn
 * **MSSV:** 51.01.104.115
 * **Lớp:** 51.01.CNTT.A
-* **Môi trường phát triển:** Microsoft Visual Studio - C# Console App (.NET)
+* **Môi trường phát triển:** Microsoft Visual Studio - C# Console App
 * **Mô hình thiết kế:** Lập trình hướng đối tượng (OOP) & LINQ Query
 
 ---
