@@ -30,27 +30,35 @@ Dự án tập trung giải quyết bài toán quản lý danh sách sinh viên 
 
 ### 2.1. Thêm mới sinh viên và tính xếp loại tự động
 Khởi tạo thành công sinh viên mới, kiểm tra việc tự động tính toán xếp loại dựa trên điểm trung bình:
-![Thêm sinh viên](./images/01_them_sinh_vien.png)
+
+![Thêm sinh viên](./images/ThemMoiSV.png)
 
 ### 2.2. Kiểm soát trùng lặp mã sinh viên (Primary Key Validation)
 Hệ thống từ chối thêm mới và đưa ra thông báo cảnh báo khi nhập trùng `MaSinhVien` đã tồn tại trong danh sách:
-![Kiểm tra trùng mã](./images/02_trung_ma_sv.png)
+
+![Kiểm tra trùng mã](./images/TrungLapMSSV.png)
 
 ### 2.3. Ràng buộc toàn vẹn điểm trung bình [0.0 - 10.0]
 Chương trình yêu cầu nhập lại nếu người dùng nhập điểm số âm hoặc vượt quá 10:
-![Kiểm tra điểm hợp lệ](./images/03_validate_diem.png)
+
+![Kiểm tra điểm hợp lệ](./images/RangBuocDiemSV.png)
 
 ### 2.4. Xuất danh sách và Truy vấn tìm kiếm sinh viên (LINQ Filter)
 Hiển thị toàn bộ danh sách sinh viên hoặc lọc sinh viên theo mã/họ tên không phân biệt hoa thường:
-![Xuất và Tìm kiếm](./images/04_tim_kiem_sinh_vien.png)
+
+![Xuất và Tìm kiếm](./images/TimKiemSV.png)
 
 ### 2.5. Cập nhật điểm và Xóa sinh viên
 Cập nhật lại điểm trung bình hoặc xóa sinh viên ra khỏi bộ nhớ `List<SinhVien>` theo mã:
-![Sửa và Xóa sinh viên](./images/05_sua_xoa_sinh_vien.png)
+
+![Sửa](./images/SuaDiemSV.png)
+
+![Xóa sinh viên](./images/XoaV.png)
 
 ### 2.6. Sắp xếp giảm dần & Lọc sinh viên đạt chuẩn (LINQ Expression)
 Sắp xếp danh sách theo điểm từ cao đến thấp và lọc danh sách các sinh viên đạt điều kiện (`DiemTrungBinh >= 5.0`):
-![Sắp xếp và Lọc sinh viên](./images/06_sap_xep_loc_dat.png)
+
+![Sắp xếp và Lọc sinh viên](./images/LocSV.png)
 
 ---
 
