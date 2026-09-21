@@ -53,7 +53,7 @@ Cập nhật lại điểm trung bình hoặc xóa sinh viên ra khỏi bộ nh�
 
 ![Sửa](./images/SuaDiemSV.png)
 
-![Xóa sinh viên](./images/XoaV.png)
+![Xóa sinh viên](./images/XoaSV.png)
 
 ### 2.6. Sắp xếp giảm dần & Lọc sinh viên đạt chuẩn (LINQ Expression)
 Sắp xếp danh sách theo điểm từ cao đến thấp và lọc danh sách các sinh viên đạt điều kiện (`DiemTrungBinh >= 5.0`):
