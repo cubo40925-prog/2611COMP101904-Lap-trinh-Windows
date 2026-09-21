@@ -41,23 +41,15 @@ Tự động bắt lỗi nhập sai định dạng số (`FormatException`) ho�
 Tra cứu thực thể trong Generic Repository theo mã hoặc sử dụng biểu thức Lambda tìm kiếm từ khóa họ tên:
 ![Xuất danh sách và Tìm kiếm](./images/04_xuat_tim_kiem.png)
 
-### 2.5. Tìm kiếm sản phẩm theo mã (Chức năng 3)
-Nhập mã sản phẩm cần tra cứu, hệ thống truy vấn và trả về kết quả chính xác:
-![Tìm theo mã](./images/07_tim_theo_ma.png)
-
-### 2.6. Tìm kiếm sản phẩm theo tên (Chức năng 4 - LINQ / Func)
-Nhập từ khóa tên sản phẩm, sử dụng biểu thức Lambda/Func tìm kiếm chuỗi không phân biệt hoa/thường:
-![Tìm theo tên](./images/08_tim_theo_ten.png)
-
-### 2.7. Xử lý ngoại lệ và hiển thị thông báo lỗi (Error Handling)
+### 2.5. Xử lý ngoại lệ và hiển thị thông báo lỗi (Error Handling)
 Hệ thống bắt các ngoại lệ dị thường (`ProductNotFoundException`, `ArgumentException`, `FormatException`), hiển thị thông báo lỗi chi tiết trên Console và giữ cho chương trình hoạt động ổn định:
 ![Xử lý lỗi](./images/09_xu_ly_loi.png)
 
-### 2.8. Lọc dữ liệu linh hoạt qua Func<Product, bool>
+### 2.6. Lọc dữ liệu linh hoạt qua Func<Product, bool>
 Trích xuất danh sách các sản phẩm thỏa mãn khoảng giá `[Min - Max]` bằng việc truyền `Func` vào Repository:
 ![Lọc theo khoảng giá](./images/05_loc_khoang_gia.png)
 
-### 2.9. Thống kê tổng giá trị kho & Xóa sản phẩm
+### 2.7. Thống kê tổng giá trị kho & Xóa sản phẩm
 Tính tổng giá trị kho (`Price * Quantity`) và bẫy lỗi `ProductNotFoundException` khi thực hiện xóa một mã không tồn tại:
 ![Tính tổng kho và Xóa sản phẩm](./images/06_tong_kho_xoa_sp.png)
 
