@@ -27,19 +27,22 @@ Dự án Xây dựng Hệ thống Quản lý Sản phẩm (Product Manager) nh�
 
 ### 2.1. Thêm mới sản phẩm và Kích hoạt Event
 Thêm sản phẩm thành công, hệ thống tự động phát Event báo tín hiệu chữ màu xanh trên màn hình Console:
-![Thêm sản phẩm](./images/01_them_san_pham.png)
+![Thêm sản phẩm](./images/NhapSP.png)
 
 ### 2.2. Kiểm soát trùng lặp khóa chính (Primary Key Validation)
 Bắt ngoại lệ `DuplicateProductException` và đưa ra thông báo lỗi khi cố tình nhập trùng `MaSP` đã có trong hệ thống:
-![Lỗi trùng mã sản phẩm](./images/02_trung_ma_sp.png)
+![Lỗi trùng mã sản phẩm](./images/LoiNhapSP.png)
 
 ### 2.3. Ràng buộc toàn vẹn dữ liệu nhập (Validation & Exception)
 Tự động bắt lỗi nhập sai định dạng số (`FormatException`) hoặc dữ liệu đơn giá/số lượng không hợp lệ mà không làm dừng chương trình:
-![Kiểm tra dữ liệu nhập](./images/03_validate_nhap_lieu.png)
+![Kiểm tra dữ liệu nhập](./images/LoiNhapGTSP.png)
 
 ### 2.4. Xuất danh sách & Tìm kiếm theo mã/tên
 Tra cứu thực thể trong Generic Repository theo mã hoặc sử dụng biểu thức Lambda tìm kiếm từ khóa họ tên:
-![Xuất danh sách và Tìm kiếm](./images/04_xuat_tim_kiem.png)
+
+![Xuất danh sách và Tìm kiếm](./images/TimMaSP.png)
+
+![Xuất danh sách và Tìm kiếm](./images/TimTenSP.png)
 
 ### 2.5. Xử lý ngoại lệ và hiển thị thông báo lỗi (Error Handling)
 Hệ thống bắt các ngoại lệ dị thường (`ProductNotFoundException`, `ArgumentException`, `FormatException`), hiển thị thông báo lỗi chi tiết trên Console và giữ cho chương trình hoạt động ổn định:
