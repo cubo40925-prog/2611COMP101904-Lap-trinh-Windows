@@ -59,9 +59,9 @@ Trích xuất danh sách các sản phẩm thỏa mãn khoảng giá `[Min - Max
 Nhập mã sản phẩm cần xóa, hệ thống xác thực sự tồn tại của thực thể trong Generic Repository, thực hiện xóa khỏi bộ nhớ và kích hoạt `ProductRemoved` Event phát thông báo xác nhận:
 ![Xóa sản phẩm thành công](./images/XoaSP.png)
 
-### 2.8. Thống kê tổng giá trị kho & Xóa sản phẩm
-Tính tổng giá trị kho (`Price * Quantity`) và bẫy lỗi `ProductNotFoundException` khi thực hiện xóa một mã không tồn tại:
-![Tính tổng kho và Xóa sản phẩm](./images/06_tong_kho_xoa_sp.png)
+### 2.8. Thống kê tổng giá trị kho
+Tính tổng giá trị kho (`Price * Quantity`)
+![Tính tổng kho và Xóa sản phẩm](./images/TongSP.png)
 
 ### 2.9. Bẫy ngoại lệ và xử lý lỗi hệ thống (Exception Handling)
 Chương trình bao bọc toàn bộ luồng I/O bằng cấu trúc `try-catch`, bắt chính xác các lớp ngoại lệ (`ProductNotFoundException`, `ArgumentException`, `FormatException`), hiển thị thông báo trực quan và giữ chương trình luôn hoạt động ổn định:
