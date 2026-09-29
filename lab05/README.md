@@ -28,7 +28,7 @@ Dưới đây là các minh chứng thực nghiệm xác thực việc hoàn thi
 ### 2.1. Khởi tạo giao diện và nạp dữ liệu ban đầu
 Hệ thống nạp danh mục khóa học vào `ComboBox`, kích hoạt mặc định khóa học đầu tiên, chọn hình thức Online và tự động tính toán tổng học phí ban đầu:
 
-![Khởi tạo giao diện](Images/main.png)
+![Khởi tạo giao diện](images/main.png)
 
 ### 2.2. Tính toán học phí động theo thời gian thực
 Cơ chế tự động tính toán và cập nhật lại `lblTongTien` khi người dùng thay đổi khóa học hoặc điều chỉnh số tháng đăng ký:
@@ -56,4 +56,4 @@ Sau khi dữ liệu được xác thực hợp lệ, ứng dụng tổng hợp t
 ### 2.5. Xác nhận thoát ứng dụng an toàn
 Hộp thoại xác nhận hiển thị nhằm ngăn chặn thao tác đóng ứng dụng đột ngột ngoài ý muốn của người dùng:
 
-![Xác nhận thoát](images/exit.png)
+![Xác nhận thoát](images/out.png)
