@@ -3,7 +3,7 @@
 ### CHỦ ĐỀ: XÂY DỰNG ỨNG DỤNG WINDOWS FORMS CƠ BẢN
 
 * **Giảng viên hướng dẫn:** ThS. Lê Thanh Thoại
-* **Sinh viên thực hiện:** Ngô Minh Hải
+* **Sinh viên thực hiện:** Lê Quốc Tuấn - 51.01.104.115
 * **Môi trường phát triển:** Microsoft Visual Studio - C# Windows Forms App (.NET)
 * **Tên ứng dụng:** CourseRegistrationApp
 
@@ -33,27 +33,27 @@ Hệ thống nạp danh mục khóa học vào `ComboBox`, kích hoạt mặc đ
 ### 2.2. Tính toán học phí động theo thời gian thực
 Cơ chế tự động tính toán và cập nhật lại `lblTongTien` khi người dùng thay đổi khóa học hoặc điều chỉnh số tháng đăng ký:
 
-![Thay đổi học phí](Images/price1.png)
+![Thay đổi học phí](images/price1.png)
 
-![Thay đổi học phí](Images/price2.png)
+![Thay đổi học phí](images/price2.png)
 
-![Thay đổi học phí](Images/price3.png)
+![Thay đổi học phí](images/price3.png)
 
-![Thay đổi học phí](Images/price4.png)
+![Thay đổi học phí](images/price4.png)
 
 ### 2.3. Kiểm tra ràng buộc dữ liệu nhập (Input Validation)
 Hệ thống phát hiện lỗi và hiển thị cảnh báo khi các trường thông tin bắt buộc (Họ tên, Số điện thoại) bị bỏ trống:
 
-![Kiểm tra rỗng](Images/error1.png)
+![Kiểm tra rỗng](images/error1.png)
 
-![Kiểm tra rỗng](Images/error2.png)
+![Kiểm tra rỗng](images/error2.png)
 
 ### 2.4. Xác nhận đăng ký và xuất phiếu thông tin
 Sau khi dữ liệu được xác thực hợp lệ, ứng dụng tổng hợp toàn bộ thông tin đăng ký và hiển thị phiếu xác nhận chi tiết qua hộp thoại `MessageBox`:
 
-![Đăng ký thành công](Images/success.png)
+![Đăng ký thành công](images/success.png)
 
 ### 2.5. Xác nhận thoát ứng dụng an toàn
 Hộp thoại xác nhận hiển thị nhằm ngăn chặn thao tác đóng ứng dụng đột ngột ngoài ý muốn của người dùng:
 
-![Xác nhận thoát](Images/exit.png)
+![Xác nhận thoát](images/exit.png)
