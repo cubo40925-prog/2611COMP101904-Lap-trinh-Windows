@@ -1,0 +1,14 @@
+using CourseRegistrationApp;
+
+namespace CourseRegistrationApp
+{
+    internal static class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            ApplicationConfiguration.Initialize();
+            Application.Run(new frmDangKy());
+        }
+    }
+}
