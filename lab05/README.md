@@ -28,24 +28,32 @@ Dưới đây là các minh chứng thực nghiệm xác thực việc hoàn thi
 ### 2.1. Khởi tạo giao diện và nạp dữ liệu ban đầu
 Hệ thống nạp danh mục khóa học vào `ComboBox`, kích hoạt mặc định khóa học đầu tiên, chọn hình thức Online và tự động tính toán tổng học phí ban đầu:
 
-![Khởi tạo giao diện](Images/GiaoDienChinh.png)
+![Khởi tạo giao diện](Images/main.png)
 
 ### 2.2. Tính toán học phí động theo thời gian thực
 Cơ chế tự động tính toán và cập nhật lại `lblTongTien` khi người dùng thay đổi khóa học hoặc điều chỉnh số tháng đăng ký:
 
-![Thay đổi học phí](Images/ThayDoiHocPhi.png)
+![Thay đổi học phí](Images/price1.png)
+
+![Thay đổi học phí](Images/price2.png)
+
+![Thay đổi học phí](Images/price3.png)
+
+![Thay đổi học phí](Images/price4.png)
 
 ### 2.3. Kiểm tra ràng buộc dữ liệu nhập (Input Validation)
 Hệ thống phát hiện lỗi và hiển thị cảnh báo khi các trường thông tin bắt buộc (Họ tên, Số điện thoại) bị bỏ trống:
 
-![Kiểm tra rỗng](Images/LoiDeTrong.png)
+![Kiểm tra rỗng](Images/error1.png)
+
+![Kiểm tra rỗng](Images/error2.png)
 
 ### 2.4. Xác nhận đăng ký và xuất phiếu thông tin
 Sau khi dữ liệu được xác thực hợp lệ, ứng dụng tổng hợp toàn bộ thông tin đăng ký và hiển thị phiếu xác nhận chi tiết qua hộp thoại `MessageBox`:
 
-![Đăng ký thành công](Images/DangKyThanhCong.png)
+![Đăng ký thành công](Images/success.png)
 
 ### 2.5. Xác nhận thoát ứng dụng an toàn
 Hộp thoại xác nhận hiển thị nhằm ngăn chặn thao tác đóng ứng dụng đột ngột ngoài ý muốn của người dùng:
 
-![Xác nhận thoát](Images/ThongBaoThoat.png)
+![Xác nhận thoát](Images/exit.png)
