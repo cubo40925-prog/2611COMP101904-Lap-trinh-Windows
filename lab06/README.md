@@ -1,4 +1,4 @@
-# 🚀 HỆ THỐNG QUẢN TRỊ KHO HÀNG THÔNG MINH (PRODUCT INVENTORY MANAGEMENT SYSTEM)
+#  HỆ THỐNG QUẢN TRỊ KHO HÀNG THÔNG MINH (PRODUCT INVENTORY MANAGEMENT SYSTEM)
 
 * **Học phần:** 2611COMP101904 - Lập trình trên Windows
 * **Giảng viên hướng dẫn:** ThS. Lê Thanh Thoại
