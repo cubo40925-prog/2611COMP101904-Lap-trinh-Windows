@@ -67,9 +67,9 @@ Hệ thống kích hoạt cờ cảnh báo đỏ tại các ô nhập liệu khi
 ### 4.3. Tích hợp Hộp thoại Chọn Ảnh Sản phẩm (`OpenFileDialog`)
 Hộp thoại duyệt tệp giúp người dùng định vị và nạp ảnh minh họa linh hoạt, đồng thời render trực tiếp hình ảnh lên khung hiển thị:
 
-![Chọn ảnh sản phẩm](./images/select_images1.png)
+![Chọn ảnh sản phẩm](./images/select_image1.png)
 
-![Chọn ảnh sản phẩm](./images/select_images1.png)
+![Chọn ảnh sản phẩm](./images/select_image2.png)
 
 ### 4.4. Thao tác Nhanh bằng Menu Ngữ cảnh (`ContextMenuStrip`)
 Menu chuột phải xuất hiện linh hoạt khi người dùng tương tác trực tiếp trên dòng dữ liệu của bảng, giúp rút ngắn thao tác gọi chức năng Sửa/Xóa:
