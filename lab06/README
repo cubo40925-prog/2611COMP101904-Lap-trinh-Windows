@@ -56,28 +56,37 @@ Dưới đây là các hình ảnh minh chứng thực tế ghi nhận quá trì
 
 ### 4.1. Khởi tạo Giao diện và Tải Dữ liệu Mẫu
 Ứng dụng khởi động thành công với giao diện chuẩn Desktop, tự động nạp dữ liệu mẫu lên bảng `DataGridView` và hiển thị trạng thái sẵn sàng trên thanh `StatusStrip`:
-![Khởi tạo giao diện](./images/01_GiaoDien_LoadDanhSach.png)
+
+![Khởi tạo giao diện](./images/menu.png)
 
 ### 4.2. Kiểm soát Lỗi Dữ liệu với `ErrorProvider`
 Hệ thống kích hoạt cờ cảnh báo đỏ tại các ô nhập liệu khi phát hiện vi phạm quy tắc nghiệp vụ (để trống thông tin, trùng mã định danh hoặc nhập giá trị âm):
-![Bắt lỗi ErrorProvider](./images/02_BatLoi_ErrorProvider.png)
+
+![Bắt lỗi ErrorProvider](./images/error.png)
 
 ### 4.3. Tích hợp Hộp thoại Chọn Ảnh Sản phẩm (`OpenFileDialog`)
 Hộp thoại duyệt tệp giúp người dùng định vị và nạp ảnh minh họa linh hoạt, đồng thời render trực tiếp hình ảnh lên khung hiển thị:
-![Chọn ảnh sản phẩm](./images/03_ChonAnh_OpenFileDialog.png)
+
+![Chọn ảnh sản phẩm](./images/select_images1.png)
+
+![Chọn ảnh sản phẩm](./images/select_images1.png)
 
 ### 4.4. Thao tác Nhanh bằng Menu Ngữ cảnh (`ContextMenuStrip`)
 Menu chuột phải xuất hiện linh hoạt khi người dùng tương tác trực tiếp trên dòng dữ liệu của bảng, giúp rút ngắn thao tác gọi chức năng Sửa/Xóa:
-![Menu ngữ cảnh DataGridView](./images/04_ClickChuotPhai_ContextMenu.png)
+
+![Menu ngữ cảnh DataGridView](./images/right_click.png)
 
 ### 4.5. Tra cứu và Trích lọc Dữ liệu Thông minh
 Bộ lọc tìm kiếm xử lý chuỗi linh hoạt, lập tức cô lập các bản ghi thỏa mãn từ khóa người dùng nhập vào mà không cần khởi động lại ứng dụng:
-![Tìm kiếm sản phẩm](./images/05_TimKiemSanPham.png)
+
+![Tìm kiếm sản phẩm](./images/search.png)
 
 ### 4.6. Hộp thoại Xác thực An toàn (`MessageBox`)
 Mọi hành động nhạy cảm như xóa bản ghi đều được bao bọc bởi hộp thoại xác nhận hai chiều nhằm triệt để ngăn chặn sự cố thao tác nhầm:
-![Xác nhận xóa bản ghi](./images/06_XacNhanXoa.png)
+
+![Xác nhận xóa bản ghi](./images/delete.png)
 
 ### 4.7. Đồng bộ Trạng thái và Thống kê Hệ thống (`StatusStrip`)
 Thanh trạng thái dưới cùng liên tục cập nhật thông điệp phản hồi sau mỗi thao tác, đi kèm thông số chính xác về tổng số lượng bản ghi hiện có trong kho:
-![Cập nhật StatusStrip](./images/07_CapNhat_StatusStrip.png)
+
+![Cập nhật StatusStrip](./images/sum_product.png)
