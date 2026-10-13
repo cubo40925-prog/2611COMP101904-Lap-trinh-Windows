@@ -71,7 +71,7 @@ Hộp thoại cảnh báo hiển thị khi người dùng bấm nút thoát ho�
 Hệ thống kiểm soát chặt chẽ tính hợp lệ của dữ liệu đầu vào, kích hoạt hộp thoại cảnh báo khi người dùng bỏ trống hoặc vi phạm quy tắc nghiệp vụ:
 - Cảnh báo khi bỏ trống thông tin đăng nhập:
   
-  ![Lỗi trống thông tin đăng nhập](images/error7-1.png)
+  ![Lỗi trống thông tin đăng nhập](images/error7-3.png)
   
 - Cảnh báo yêu cầu nhập đầy đủ tài khoản và mật khẩu:
   
@@ -79,7 +79,7 @@ Hệ thống kiểm soát chặt chẽ tính hợp lệ của dữ liệu đầu
   
 - Kiểm soát lỗi ràng buộc dữ liệu đầu vào tại Form Quản lý Sản phẩm (`FrmProduct`):
   
-  ![Bắt lỗi sản phẩm](images/error7-3.png)
+  ![Bắt lỗi sản phẩm](images/error7-1.png)
   
 ---
 
