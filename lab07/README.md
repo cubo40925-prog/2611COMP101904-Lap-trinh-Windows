@@ -52,11 +52,12 @@ Giao diện quản lý danh mục sản phẩm và danh sách khách hàng:
 - Giao diện quản lý danh mục sản phẩm (thêm mới, cập nhật đơn giá, số lượng tồn kho và hiển thị trạng thái thao tác trên thanh StatusStrip):
   
   ![Quản lý sản phẩm](images/add_item.png)
+  
 - Giao diện quản lý danh sách khách hàng (quản lý thông tin mã, họ tên, số điện thoại và phân loại khách hàng):
   
   ![Quản lý khách hàng](images/add_customer.png)
   
-### 3.4. Thông tin Bản quyền và Xác nhận Thao tác An toàn
+### 3.5. Thông tin Bản quyền và Xác nhận Thao tác An toàn
 
 Màn hình `FrmAbout` hiển thị thông tin hệ thống và định danh sinh viên:
 
@@ -67,19 +68,19 @@ Hộp thoại cảnh báo hiển thị khi người dùng bấm nút thoát ho�
   
 ![Xác nhận thoát chương trình](images/exit_confirm.png)
   
-### 3.5. Nhóm Minh chứng Lỗi Không Nhập Thông tin (Validation & Error Handling)
-Hệ thống kiểm soát chặt chẽ tính hợp lệ của dữ liệu đầu vào, kích hoạt hộp thoại cảnh báo khi người dùng bỏ trống hoặc vi phạm quy tắc nghiệp vụ:
-- Cảnh báo khi bỏ trống thông tin đăng nhập:
+### 3.7. Nhóm Minh chứng Kiểm soát Lỗi và Xử lý Ngoại lệ (Validation & Error Handling)
+Hệ thống kiểm soát chặt chẽ tính hợp lệ của dữ liệu đầu vào bằng cơ chế bắt lỗi trực quan (hiển thị biểu tượng cảnh báo tại các trường dữ liệu vi phạm và hộp thoại thông báo chi tiết):
+- Cảnh báo khi người dùng bỏ trống thông tin tại màn hình Đăng nhập (`FrmLogin`):
   
-  ![Lỗi trống thông tin đăng nhập](images/error7-3.png)
+  ![Lỗi đăng nhập](images/error7.3.png)
   
-- Cảnh báo yêu cầu nhập đầy đủ tài khoản và mật khẩu:
+- Kiểm soát và thông báo lỗi chi tiết khi để trống các trường thông tin bắt buộc tại Form Quản lý Sản phẩm (`FrmProduct`):
   
-  ![Cảnh báo lỗi nhập liệu đăng nhập](images/error7-2.png)
+  ![Bắt lỗi sản phẩm](images/error7.2.png)
   
-- Kiểm soát lỗi ràng buộc dữ liệu đầu vào tại Form Quản lý Sản phẩm (`FrmProduct`):
+- Kiểm soát lỗi ràng buộc dữ liệu đầu vào tại Form Quản lý Khách hàng (`FrmCustomer`):
   
-  ![Bắt lỗi sản phẩm](images/error7-1.png)
+  ![Bắt lỗi khách hàng](images/error7.1.png)
   
 ---
 
