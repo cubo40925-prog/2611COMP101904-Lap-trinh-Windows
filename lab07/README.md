@@ -34,32 +34,75 @@ Dự án `ShopManagerMini` được xây dựng nhằm hiện thực hóa giải
 ## 3. Minh chứng Thực nghiệm và Kiểm thử Hệ thống (Test Cases)
 
 ### 3.1. Giao diện Đăng nhập hệ thống (`FrmLogin`)
-- Giao diện khởi tạo màn hình đăng nhập:
-  ![Giao diện đăng nhập](Images/login.png)
-- Đăng nhập thành công và điều phối dữ liệu người dùng lên thanh `StatusStrip`:
-  ![Đăng nhập thành công](Images/02_DangNhap_ThanhCong.png)
+Giao diện khởi tạo màn hình đăng nhập:
 
-### 3.2. Nhóm Minh chứng Lỗi Không Nhập Thông tin (Validation & Error Handling)
+![Giao diện đăng nhập](images/login.png)
+
+### 3.2. Quản lý Không gian MDI Container (`FrmMain`)
+Khởi tạo và quản lý đồng thời các Form nghiệp vụ con bên trong vùng làm việc của `FrmMain`, không mở thành các cửa sổ rời rạc:
+
+![Kiến trúc MDI](images/main_menu.png)
+
+### 3.3. Quản lý Danh mục Sản phẩm và Khách hàng
+Giao diện quản lý danh mục sản phẩm và danh sách khách hàng:
+
+![QLSP và QLKH](images/QLSP_QLKH.png)
+
+### 3.4. Thông tin Bản quyền và Xác nhận Thao tác An toàn
+Màn hình `FrmAbout` hiển thị thông tin hệ thống và định danh sinh viên:
+
+[Thông tin giới thiệu](images/about.png)
+
+### 3.6. Xác nhận Thoát Chương trình An toàn
+Hộp thoại cảnh báo hiển thị khi người dùng bấm nút thoát hoặc đóng ứng dụng, ngăn chặn việc tắt nhầm chương trình và bảo vệ dữ liệu chưa lưu:
+  
+![Xác nhận thoát chương trình](images/exit_confirm.png)
+  
+### 3.5. Nhóm Minh chứng Lỗi Không Nhập Thông tin (Validation & Error Handling)
 Hệ thống kiểm soát chặt chẽ tính hợp lệ của dữ liệu đầu vào, kích hoạt hộp thoại cảnh báo khi người dùng bỏ trống hoặc vi phạm quy tắc nghiệp vụ:
 - Cảnh báo khi bỏ trống thông tin đăng nhập:
-  ![Lỗi trống thông tin đăng nhập](Images/01_DangNhap.png)
+  
+  ![Lỗi trống thông tin đăng nhập](images/error7-1.png)
+  
 - Cảnh báo yêu cầu nhập đầy đủ tài khoản và mật khẩu:
-  ![Cảnh báo lỗi nhập liệu đăng nhập](Images/Screenshot_2026-10-13_161709.png)
+  
+  ![Cảnh báo lỗi nhập liệu đăng nhập](images/error7-2.png)
+  
 - Kiểm soát lỗi ràng buộc dữ liệu đầu vào tại Form Quản lý Sản phẩm (`FrmProduct`):
-  ![Bắt lỗi sản phẩm](Images/Screenshot_2026-10-13_161732.png)
+  
+  ![Bắt lỗi sản phẩm](images/error7-3.png)
+  
+---
 
-### 3.3. Quản lý Không gian MDI Container (`FrmMain`)
-Khởi tạo và quản lý đồng thời các Form nghiệp vụ con bên trong vùng làm việc của `FrmMain`, không mở thành các cửa sổ rời rạc:
-![Kiến trúc MDI](Images/03_MDI_ChuaNhieuFormCon.png)
+## 4.Câu hỏi nộp kèm
 
-### 3.4. Quản lý Danh mục Sản phẩm và Khách hàng
-- Giao diện quản lý danh mục sản phẩm:
-  ![Quản lý sản phẩm](Images/04_Product.png)
-- Giao diện quản lý danh sách khách hàng:
-  ![Quản lý khách hàng](Images/05_Custome.png)
+### Câu 1: SDI và MDI khác nhau như thế nào?
+SDI (Single Document Interface): Mỗi Form là một cửa sổ độc lập, có các nút đóng, thu nhỏ, phóng to riêng và nằm ngang hàng với nhau trên màn hình desktop. Việc đóng Form này không ảnh hưởng đến các Form khác.
 
-### 3.5. Thông tin Bản quyền và Xác nhận Thao tác An toàn
-- Màn hình `FrmAbout` hiển thị thông tin hệ thống và định danh sinh viên:
-  ![Thông tin giới thiệu](Images/06_FrmAbout_ThongTin.png)
-- Hộp thoại xác nhận an toàn khi thực thi thao tác xóa hoặc thoát chương trình:
-  ![Xác nhận an toàn](Images/07_XacNhan_Xoa_Thoat.png)
+MDI (Multiple Document Interface): Gồm có một Form cha làm khung chứa tổng thể (IsMdiContainer = true). Các Form con chỉ được phép hiển thị và thao tác bên trong vùng làm việc của Form cha, không bị kéo ra ngoài màn hình độc lập. Khi đóng Form cha thì toàn bộ các Form con bên trong sẽ bị đóng theo.
+
+### Câu 2: Vì sao Form đăng nhập nên dùng ShowDialog()?
+Form đăng nhập nên sử dụng phương thức ShowDialog() thay vì Show() vì 3 lý do chính:
+
+Chặn luồng thực thi: Ép người dùng buộc phải tương tác với Form đăng nhập và không thể bấm sang các Form khác của ứng dụng khi chưa xác thực thành công.
+
+Cung cấp giá trị trả về (DialogResult): Cho phép chương trình kiểm tra trạng thái (OK hoặc Cancel) để quyết định có cho phép khởi chạy tiếp Form chính hay không.
+
+Đảm bảo tính tuần tự của ứng dụng: Đảm bảo luồng khởi động chuẩn xác (đăng nhập thành công -> đóng form đăng nhập -> mở form chính FrmMain).
+
+### Câu 3: Trong bài lab này, dữ liệu user được truyền từ FrmLogin sang FrmMain bằng cách nào?
+Dữ liệu được truyền qua các bước sau:
+
+FrmLogin lưu đối tượng user vào một property công khai (public User NguoiDung { get; private set; }) khi tài khoản và mật khẩu hợp lệ, đồng thời gán DialogResult = DialogResult.OK để đóng form.
+
+Tại Program.cs, sau khi ShowDialog() trả về kết quả OK, chương trình đọc trực tiếp thuộc tính frmLogin.NguoiDung.
+
+Truyền trực tiếp đối tượng này vào hàm khởi tạo (Constructor) của FrmMain: new FrmMain(frmLogin.NguoiDung, ...) để hiển thị tên và vai trò lên thanh StatusStrip.
+
+### Câu 4: Nếu người dùng bấm menu sản phẩm nhiều lần, chương trình xử lý thế nào để không mở trùng Form?
+Chương trình sử dụng một hàm kiểm tra tập hợp các Form con đang hiển thị (MdiChildren). Trước khi khởi tạo mới, hệ thống duyệt qua danh sách này, nếu phát hiện Form cùng kiểu loại đã tồn tại thì sẽ gọi lệnh kích hoạt (Activate()) và khôi phục trạng thái hiển thị (phòng trường hợp đang bị thu nhỏ) thay vì cấp phát ô nhớ mở Form mới.
+
+### Câu 5: Khi nào nên dùng constructor, khi nào nên dùng property để truyền dữ liệu giữa các Form?
+Constructor: Nên dùng khi dữ liệu là bắt buộc phải có ngay từ đầu để Form có đủ điều kiện khởi tạo và hoạt động (ví dụ: truyền thông tin user đăng nhập hoặc danh sách dữ liệu cốt lõi). Cách này giúp ràng buộc chặt chẽ từ sớm.
+
+Property: Nên dùng khi dữ liệu có thể thay đổi sau khi Form đã được khởi tạo, hoặc khi cần lấy ngược kết quả trả về từ Form con về lại Form gọi.
