@@ -51,10 +51,10 @@ Giao diện quản lý danh mục sản phẩm và danh sách khách hàng:
 ### 3.4. Quản lý Danh mục Sản phẩm và Khách hàng
 - Giao diện quản lý danh mục sản phẩm (thêm mới, cập nhật đơn giá, số lượng tồn kho và hiển thị trạng thái thao tác trên thanh StatusStrip):
   
-  ![Quản lý sản phẩm](Images/add_item.png)
+  ![Quản lý sản phẩm](images/add_item.png)
 - Giao diện quản lý danh sách khách hàng (quản lý thông tin mã, họ tên, số điện thoại và phân loại khách hàng):
   
-  ![Quản lý khách hàng](Images/add_customer.png)
+  ![Quản lý khách hàng](images/add_customer.png)
   
 ### 3.4. Thông tin Bản quyền và Xác nhận Thao tác An toàn
 
