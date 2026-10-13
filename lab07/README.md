@@ -72,15 +72,15 @@ Hộp thoại cảnh báo hiển thị khi người dùng bấm nút thoát ho�
 Hệ thống kiểm soát chặt chẽ tính hợp lệ của dữ liệu đầu vào bằng cơ chế bắt lỗi trực quan (hiển thị biểu tượng cảnh báo tại các trường dữ liệu vi phạm và hộp thoại thông báo chi tiết):
 - Cảnh báo khi người dùng bỏ trống thông tin tại màn hình Đăng nhập (`FrmLogin`):
   
-  ![Lỗi đăng nhập](images/error7.3.png)
+  ![Lỗi đăng nhập](images/error7-3.png)
   
 - Kiểm soát và thông báo lỗi chi tiết khi để trống các trường thông tin bắt buộc tại Form Quản lý Sản phẩm (`FrmProduct`):
   
-  ![Bắt lỗi sản phẩm](images/error7.2.png)
+  ![Bắt lỗi sản phẩm](images/error7-2.png)
   
 - Kiểm soát lỗi ràng buộc dữ liệu đầu vào tại Form Quản lý Khách hàng (`FrmCustomer`):
   
-  ![Bắt lỗi khách hàng](images/error7.1.png)
+  ![Bắt lỗi khách hàng](images/error7-1.png)
   
 ---
 
