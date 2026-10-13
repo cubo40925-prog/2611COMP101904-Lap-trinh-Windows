@@ -48,10 +48,19 @@ Giao diện quản lý danh mục sản phẩm và danh sách khách hàng:
 
 ![QLSP và QLKH](images/QLSP_QLKH.png)
 
+### 3.4. Quản lý Danh mục Sản phẩm và Khách hàng
+- Giao diện quản lý danh mục sản phẩm (thêm mới, cập nhật đơn giá, số lượng tồn kho và hiển thị trạng thái thao tác trên thanh StatusStrip):
+  
+  ![Quản lý sản phẩm](Images/add_item.png)
+- Giao diện quản lý danh sách khách hàng (quản lý thông tin mã, họ tên, số điện thoại và phân loại khách hàng):
+  
+  ![Quản lý khách hàng](Images/add_customer.png)
+  
 ### 3.4. Thông tin Bản quyền và Xác nhận Thao tác An toàn
+
 Màn hình `FrmAbout` hiển thị thông tin hệ thống và định danh sinh viên:
 
-[Thông tin giới thiệu](images/about.png)
+![Thông tin giới thiệu](images/about.png)
 
 ### 3.6. Xác nhận Thoát Chương trình An toàn
 Hộp thoại cảnh báo hiển thị khi người dùng bấm nút thoát hoặc đóng ứng dụng, ngăn chặn việc tắt nhầm chương trình và bảo vệ dữ liệu chưa lưu:
