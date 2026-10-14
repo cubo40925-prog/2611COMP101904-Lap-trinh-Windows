@@ -71,7 +71,7 @@
 ### 3.6. Đổi màu nền Canvas (Tính năng nâng cao)
 - Tính năng cho phép thay đổi linh hoạt màu sắc phông nền của vùng vẽ theo sở thích:
   
-  ![Đổi màu nền canvas](Images/back_color.png)
+  ![Đổi màu nền canvas](images/back_color.png)
 
 ### 3.7. Mở Ảnh nền để Vẽ đè (Tính năng nâng cao)
 - Hỗ trợ nạp tệp hình ảnh từ bộ nhớ máy tính làm lớp nền để vẽ các đường nét GDI+ đè lên trên:
@@ -81,7 +81,7 @@
 ### 3.8. Xuất Bản vẽ ra Tệp Ảnh PNG (Tính năng nâng cao)
 - Chức năng lưu toàn bộ nội dung đồ họa trên canvas thành file hình ảnh định dạng PNG chất lượng cao vào máy tính:
   
-  ![Lưu ảnh PNG](Images/save.png)
+  ![Lưu ảnh PNG](images/save.png)
 
 ### 3.9. Sử dụng Phím tắt `Ctrl + Z` để Hoàn tác (Tính năng nâng cao)
 - Hỗ trợ thao tác phím tắt bàn phím (`Ctrl + Z`) tương đương với nút Undo để rút lại nét vẽ nhanh chóng.
