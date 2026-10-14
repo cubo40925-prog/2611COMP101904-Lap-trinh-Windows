@@ -1,4 +1,4 @@
-# 🎓 THIẾT KẾ VÀ IN THẺ SINH VIÊN (STUDENT CARD PRINTER)
+#  THIẾT KẾ VÀ IN THẺ SINH VIÊN (STUDENT CARD PRINTER)
 
 * **Môn học:** COMP1019 - Lập trình trên Windows
 * **Giảng viên hướng dẫn:** ThS. Lê Thanh Thoại
@@ -62,6 +62,14 @@ Hệ thống đã trải qua quá trình kiểm thử toàn diện qua 8 trườ
 - Hiển thị trực quan bản in hoàn chỉnh trước khi truyền dữ liệu xuống phần cứng máy in:
   ![Xem trước khi in](Images/05_PrintPreviewDialog.png)
 
+### 3.6. Tùy chỉnh Màu nền Thẻ (Tính năng nâng cao)
+- Cho phép mở hộp thoại `ColorDialog` để thay đổi phông nền thẻ linh hoạt:
+  ![Đổi màu nền thẻ](Images/06_DoiMauNen.png)
+
+### 3.7. Lưu Thẻ dưới dạng Ảnh PNG (Tính năng nâng cao)
+- Cho phép xuất file bản vẽ thẻ thành tệp hình ảnh PNG chất lượng cao thông qua `SaveFileDialog`:
+  ![Lưu ảnh PNG](Images/07_LuuFilePNG.png)
+  
 ---
 
 ## 4. Hướng dẫn Cách chạy Chương trình
