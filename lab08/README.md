@@ -57,7 +57,7 @@
   
 - Sau khi xóa nét vẽ lần gần nhất vẽ:
   
-  ![Chức năng Undo](images/undo1.png)
+  ![Chức năng Undo](images/undo2.png)
 
 3.5. Chức năng Xóa Toàn bộ (`Clear`)
 - Trước khi xóa hết nét vẽ:
@@ -66,7 +66,7 @@
 
 - Sau khi xóa hết nét vẽ:
 
-  ![Xóa toàn bộ canvas](images/clear1.png)
+  ![Xóa toàn bộ canvas](images/clear2.png)
 
 ### 3.6. Đổi màu nền Canvas (Tính năng nâng cao)
 - Tính năng cho phép thay đổi linh hoạt màu sắc phông nền của vùng vẽ theo sở thích:
