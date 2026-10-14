@@ -44,7 +44,12 @@ Hệ thống đã trải qua quá trình kiểm thử toàn diện qua 8 trườ
 - Giao diện trực quan chia làm 2 vùng rõ rệt (vùng nhập liệu thông tin bên trái và vùng xem trước thẻ sinh viên bên phải):
   
   ![Giao diện khởi tạo](images/menu-card.png)
-
+  
+### 3.3. Chọn Ảnh Đại diện qua OpenFileDialog (`TC05`)
+- Cho phép người dùng mở hộp thoại chọn tệp hình ảnh (`JPG`, `PNG`, `BMP`) từ máy tính, sau đó hiển thị trực quan lên `PictureBox` theo đúng chế độ căn chỉnh tỷ lệ (`Zoom`) mà không bị méo ảnh:
+  
+  ![Chọn ảnh đại diện](images/select-pic.png)
+  
 ### 3.2. Bẫy lỗi Kiểm tra Dữ liệu Bắt buộc (`TC02`, `TC03`, `TC04`)
 - Hệ thống kích hoạt cảnh báo thông minh khi người dùng để trống các thông tin bắt buộc (Mã SV, Họ tên) hoặc chưa nạp ảnh đại diện trước khi in:
   
@@ -52,23 +57,28 @@ Hệ thống đã trải qua quá trình kiểm thử toàn diện qua 8 trườ
 
 ### 3.3. Xem trước Thẻ sinh viên bằng GDI+ (`TC05`, `TC06`)
 - Khi người dùng nhập đầy đủ thông tin hợp lệ và chọn ảnh đại diện, Panel tự động vẽ hoàn chỉnh thẻ sinh viên gồm khung viền, tiêu đề trường, ảnh chân dung và các thông tin chi tiết:
+  
   ![Preview thẻ](images/preview-card.png)
 
 ### 3.4. Hộp thoại Chọn Máy in (`TC08`)
 - Mở bảng điều khiển chọn thiết bị in kết nối hoặc chọn xuất file tài liệu ảo (`Microsoft Print to PDF`):
+  
   ![Hộp thoại in](images/select-printer.png)
 
 ### 3.5. Cửa sổ Xem trước khi In (`TC07`)
 - Hiển thị trực quan bản in hoàn chỉnh trước khi truyền dữ liệu xuống phần cứng máy in:
-  ![Xem trước khi in](Images/05_PrintPreviewDialog.png)
+  
+  ![Xem trước khi in](images/preview-card-printer.png)
 
 ### 3.6. Tùy chỉnh Màu nền Thẻ (Tính năng nâng cao)
 - Cho phép mở hộp thoại `ColorDialog` để thay đổi phông nền thẻ linh hoạt:
-  ![Đổi màu nền thẻ](Images/06_DoiMauNen.png)
+  
+  ![Đổi màu nền thẻ](images/card-color.png)
 
 ### 3.7. Lưu Thẻ dưới dạng Ảnh PNG (Tính năng nâng cao)
 - Cho phép xuất file bản vẽ thẻ thành tệp hình ảnh PNG chất lượng cao thông qua `SaveFileDialog`:
-  ![Lưu ảnh PNG](Images/07_LuuFilePNG.png)
+  
+  ![Lưu ảnh PNG](images/saved-card.png)
   
 ---
 
