@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>COMP1019_Buoi11_Lab11</RootNamespace>
+    <AssemblyName>COMP1019_Buoi11_Lab11</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Thư viện kết nối SQL Server (tự được tải khi build, cần Internet lần đầu) -->
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+  </ItemGroup>
+
+</Project>
