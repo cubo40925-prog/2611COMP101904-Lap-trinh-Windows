@@ -64,7 +64,7 @@ Data Source=localhost\SQLEXPRESS;Initial Catalog=EduManagerDB;Integrated Securit
 
 Nếu chạy trên máy khác, chỉ cần đổi `Data Source`: `.` hoặc `localhost` (SQL Server mặc định), `.\SQLEXPRESS` (Express), `(localdb)\MSSQLLocalDB` (LocalDB). Cũng có thể không sửa code mà đặt biến môi trường `EDUMANAGER_CONNSTR` bằng chuỗi kết nối đầy đủ.
 
-![Chuỗi kết nối trong DbConfig.cs](Images/12_Code_ConnectionString.png)
+![Chuỗi kết nối trong DbConfig.cs](images/12_Code_ConnectionString.png)
 
 ---
 
@@ -108,63 +108,63 @@ Form chính `FrmLop` (tiêu đề "Quản lý lớp học - EduManagerDB"), đ�
 
 Khi mở Form, chương trình tự kết nối `EduManagerDB` và hiển thị danh sách lớp lên `dgvLop`. Lưới có 5 lớp kèm số sinh viên của từng lớp, thanh trạng thái báo "Đã tải danh sách lớp từ SQL Server".
 
-![Form load dữ liệu từ SQL Server](Images/01_Form_Load.png)
+![Form load dữ liệu từ SQL Server](images/01_Form_Load.png)
 
 ### 6.2. Chọn dòng (F2)
 
 Khi bấm vào một dòng trong lưới, mã lớp, tên lớp và khoa được đưa lên các ô nhập. Ô mã lớp chuyển sang trạng thái chỉ đọc (khóa) vì là khóa chính.
 
-![Chọn dòng đưa dữ liệu lên ô nhập](Images/02_Chon_Dong.png)
+![Chọn dòng đưa dữ liệu lên ô nhập](images/02_Chon_Dong.png)
 
 ### 6.3. Thêm lớp và kiểm tra dữ liệu nhập (F3)
 
 **Thêm thành công:** lớp mới `TEST01` xuất hiện trong lưới, thanh trạng thái báo "Đã thêm lớp TEST01".
 
-![Thêm lớp thành công](Images/03_Them_ThanhCong.png)
+![Thêm lớp thành công](images/03_Them_ThanhCong.png)
 
 **Dữ liệu được ghi thật vào SQL Server:** truy vấn `SELECT * FROM LOP;` trong SSMS cho thấy lớp `TEST01` đã nằm trong bảng `LOP`.
 
-![Bảng LOP trong SSMS](Images/06_SSMS_BangLOP.png)
+![Bảng LOP trong SSMS](images/06_SSMS_BangLOP.png)
 
 **Kiểm tra dữ liệu nhập:** để trống mã lớp thì chương trình báo thiếu dữ liệu và đưa con trỏ về ô mã lớp.
 
-![Báo lỗi thiếu dữ liệu](Images/04_Validation_ThieuDuLieu.png)
+![Báo lỗi thiếu dữ liệu](images/04_Validation_ThieuDuLieu.png)
 
 **Kiểm tra trùng mã:** nhập mã `CNTT01` đã có sẵn thì chương trình báo mã lớp đã tồn tại và không thêm.
 
-![Báo lỗi trùng mã lớp](Images/05_Validation_TrungMa.png)
+![Báo lỗi trùng mã lớp](images/05_Validation_TrungMa.png)
 
 ### 6.4. Sửa lớp (F4)
 
 Chọn lớp `TEST01`, đổi tên lớp rồi bấm Sửa: lưới hiển thị tên mới, thanh trạng thái báo "Đã cập nhật lớp TEST01".
 
-![Sửa lớp](Images/07_Sua.png)
+![Sửa lớp](images/07_Sua.png)
 
 ### 6.5. Xóa lớp (F5)
 
 **Không cho xóa lớp đang có sinh viên:** chọn lớp `CNTT01` (đang có 3 sinh viên) và bấm Xóa thì chương trình báo không thể xóa và lớp vẫn còn trong lưới.
 
-![Không xóa được lớp đang có sinh viên](Images/08_Xoa_LopCoSinhVien.png)
+![Không xóa được lớp đang có sinh viên](images/08_Xoa_LopCoSinhVien.png)
 
 **Xác nhận trước khi xóa:** với lớp không có sinh viên (`TEST01`), chương trình hỏi xác nhận bằng `MessageBox` Yes/No trước khi xóa.
 
-![Hộp thoại xác nhận xóa](Images/09_Xoa_XacNhan.png)
+![Hộp thoại xác nhận xóa](images/09_Xoa_XacNhan.png)
 
 ### 6.6. Tìm kiếm (F6, F8)
 
 Nhập từ khóa `CNTT` rồi bấm Tìm kiếm: lưới chỉ còn các lớp có mã hoặc tên chứa từ khóa (CNTT01, CNTT02, CNTT03); thanh trạng thái báo số lớp tìm thấy.
 
-![Tìm kiếm theo mã hoặc tên](Images/10_TimKiem.png)
+![Tìm kiếm theo mã hoặc tên](images/10_TimKiem.png)
 
 **Chống SQL injection:** nhập chuỗi `' OR 1=1 --` vào ô tìm kiếm. Vì dùng `SqlParameter`, chuỗi này được coi là dữ liệu cần tìm chứ không phải câu lệnh SQL, nên lưới không hiện dòng nào (không bị lộ toàn bộ dữ liệu).
 
-![Thử SQL injection](Images/11_ChongSQLInjection.png)
+![Thử SQL injection](images/11_ChongSQLInjection.png)
 
 ### 6.7. Mã nguồn dùng SqlParameter (F8)
 
 Hàm `InsertLop` khai báo ba tham số `@ma`, `@ten`, `@khoa` với kiểu dữ liệu cụ thể, không nối chuỗi vào câu SQL. Các hàm `UpdateLop`, `DeleteLop`, `IsMaLopExists`, `CountSinhVienByLop` và `GetLopTable` (tìm kiếm với `@kw`) viết theo cùng cách.
 
-![Mã nguồn dùng SqlParameter](Images/13_Code_SqlParameter.png)
+![Mã nguồn dùng SqlParameter](images/13_Code_SqlParameter.png)
 
 ---
 
