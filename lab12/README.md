@@ -116,23 +116,10 @@ Thực thi truy vấn `SELECT * FROM KETQUA;` trên SSMS để kiểm tra, dữ 
 
 1. **Khởi tạo Cơ sở dữ liệu:**
 * Mở **SQL Server Management Studio (SSMS)**, chạy tệp script `Database/QLSinhVienLab12.sql` bằng phím `F5` để tạo CSDL, bảng, dữ liệu mẫu và các Stored Procedures.
-
-
-
-
 2. **Cấu hình Kết nối:**
 * Mở solution `QLSinhVienLab12.sln` trong Visual Studio.
-
-
 * Kiểm tra chuỗi kết nối (`ConnectionString`) tại tệp `DAL/Database.cs` cho khớp với instance SQL Server cục bộ.
-
-
 3. **Biên dịch & Thực thi:**
 * Nhấn `Ctrl + Shift + B` để build dự án.
 * Nhấn `F5` để chạy ứng dụng.
 
-
-
-```
-
-```
