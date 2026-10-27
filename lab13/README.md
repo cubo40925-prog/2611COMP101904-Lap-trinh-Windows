@@ -2,7 +2,7 @@
 
 * **Học phần:** COMP1019 - Lập trình trên Windows
 * **Giảng viên hướng dẫn:** ThS. Lê Thanh Thoại
-* **Sinh viên thực hiện:** Ngô Minh Hải
+* **Sinh viên thực hiện:** Lê Quốc Tuấn - 51.01.104.115
 * **Môi trường phát triển:** Microsoft Visual Studio (C# WinForms - .NET 8.0)
 * **Công nghệ cốt lõi:** LINQ to Objects, DataGridView, SaveFileDialog, File I/O (Stream/UTF-8 Encoding)
 * **Tên Solution:** `StudentReportDemo.sln`
